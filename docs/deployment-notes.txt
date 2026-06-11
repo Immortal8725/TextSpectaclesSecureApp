@@ -1,0 +1,10 @@
+Deployment Notes
+----------------
+1. Create database TextSpectaclesDB.
+2. Execute setup/TextSpectaclesDB.sql.
+3. Ensure MySQL JDBC driver is available to the server.
+4. Create file realm users and assign groups/roles:
+   - agent1 -> agent
+   - agent2 -> agent
+   - boss   -> manager
+5. Deploy the project to GlassFish/Payara.
